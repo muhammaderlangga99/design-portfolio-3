@@ -1,0 +1,92 @@
+@media (max-width: 991.98px) { 
+    /* scrollbar */
+    .clickScrollbar {
+        display: none;
+    }
+
+    .scrollbar {
+        display: none;
+    }
+
+    /* carousel */
+    .carousel-caption {
+      bottom: -1%;
+      margin-left: 35%;
+    }
+
+    .carousel-caption p{
+        display: none;
+    }
+
+    /* about */
+    .text-about {
+        font-size: .9em;
+    }
+
+    .text-about span {
+      display: none;
+    }
+  
+     .bg-about {
+         display: none;
+    } 
+  
+    /* expert */
+    .expert {
+        margin-top: 0;
+    }
+
+    .tools {
+        margin-top: 100px;
+    }
+
+    main {
+       display: none;
+    }
+  
+    .icon {
+       font-size: 2em;
+    }
+
+    /* your name lamp */
+    .name {
+        font-size: 4em !important;
+    }
+
+
+    /* my service */
+    .svgService {
+        right: 10px;
+        width: 900px;
+        overflow-x: hidden !important;
+        display: none;
+    }
+
+    /* clock */
+    .clock span {
+        font-size: 100px;
+
+    }
+
+    footer ul {
+        left: 0 !important;
+    }
+
+    .copyright {
+        flex-direction: column !important;
+    }
+}
+
+/* ipad pro */
+@media (max-width: 1199.98px) { 
+
+    /* your name lamp */
+    .name {
+        font-size: 6em;
+    }
+
+    /* my service */
+    .svgService {
+        right: 10px;
+    }
+}

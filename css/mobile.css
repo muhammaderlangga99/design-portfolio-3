@@ -1,0 +1,56 @@
+@media (max-width: 767.98px) { 
+    .tools {
+        margin-top: 40px;
+    }
+
+    /* your name lamp */
+    .name {
+        font-size: 1.5em !important;
+    }
+
+    .surname {
+        font-size: 1em;
+    }
+
+    .surname > .letter {
+        margin: 0 5px;
+    }
+
+    /* my service */
+    .myservice {
+        margin-top: 50px ;
+    }
+
+    .svgService {
+        margin-top: 50px;
+        width: 500px;
+    }
+
+    /* clock */
+    .screen {
+        margin-top: 50px !important;   
+        height: 20vh;
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .screen h1 {
+        margin-top: 70px !important;
+    }
+
+    .figure {
+        display: none !important;
+    }
+
+    .figure-mask {
+        display: none;
+    }
+
+    .clock span {
+        font-size: 40px;
+        width: 50%;
+        margin-top: 20px;
+        /* transform: translateX(-190px);
+        margin-top: 40px; */
+    }
+}
